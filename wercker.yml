@@ -10,7 +10,7 @@ build:
 
     - wercker/gox:
         os: linux darwin
-        arch: amd64 i386
+        arch: amd64 386
         output: '{{.Dir}}_{{.OS}}_{{.Arch}}/{{.Dir}}'
         dest: $WERCKER_OUTPUT_DIR/pkg
 
